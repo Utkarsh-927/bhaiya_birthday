@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070b14" />
+  <meta name="description" content="A cinematic birthday story made for an elder brother — from childhood memories to today." />
+  <title>Happy Birthday, Bhai ❤️ — Our Story</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#opening" aria-label="Back to beginning">BHAI<span>•</span>STORY</a>
+    <div class="top-actions">
+      <button class="music-btn" id="musicBtn" type="button" aria-pressed="false" aria-label="Play our memory soundtrack">
+        <span class="music-icon">♪</span><span class="music-label">Play our memory soundtrack</span>
+      </button>
+      <span class="chapter" id="chapterLabel">01 / 09</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- 01 Opening -->
+    <section class="hero section-full" id="opening">
+      <div class="hero-media" role="img" aria-label="Childhood photograph of two brothers">
+        <img src="assets/childhood-laugh.jpeg" alt="Two brothers laughing together as children" />
+      </div>
+      <div class="hero-shade"></div>
+      <div class="hero-stars" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">A little story about us</p>
+        <h1>HAPPY BIRTHDAY,<br><em>BHAI</em> <span class="heart">♥</span></h1>
+        <p class="hero-copy">To the person who has been there since before I even understood what having a brother meant.</p>
+        <button class="primary-btn" data-scroll="#memories">Start Our Story <span>→</span></button>
+      </div>
+      <div class="scroll-cue"><span>Scroll to remember</span><i></i></div>
+    </section>
+
+    <!-- 02 -->
+    <section class="chapter-section memories section-dark" id="memories">
+      <div class="section-inner">
+        <div class="section-intro reveal">
+          <span class="chapter-no">02</span>
+          <p class="eyebrow">The beginning</p>
+          <h2>Before we knew<br><em>how fast time moves...</em></h2>
+          <p>We were just two kids... fighting over silly things, laughing at absolutely nothing, making memories without realizing that one day those memories would mean everything.</p>
+        </div>
+        <div class="memory-grid">
+          <figure class="memory-card card-large reveal"><img src="assets/childhood-laugh.jpeg" alt="The brothers laughing together as children"><figcaption><span>Those days...</span><b>Two brothers.</b></figcaption></figure>
+          <figure class="memory-card card-tall reveal delay-1"><img src="assets/childhood-formal.jpeg" alt="The brothers dressed up as children"><figcaption><span>Growing up together.</span><b>Partners in crime.</b></figcaption></figure>
+          <figure class="memory-card card-wide reveal delay-2"><img src="assets/childhood-puja.jpeg" alt="A childhood family memory during a prayer ceremony"><figcaption><span>Little moments.</span><b>Memories without a camera roll.</b></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 -->
+    <section class="timeline-section section-dark" id="timeline">
+      <div class="section-inner">
+        <div class="center-heading reveal">
+          <span class="chapter-no">03</span>
+          <p class="eyebrow">Childhood memories</p>
+          <h2>We didn't know it then.<br><em>We were making our story.</em></h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-line" aria-hidden="true"></div>
+          <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-copy"><span>01</span><h3>Two brothers.</h3><p>Different personalities. One childhood. A thousand tiny moments.</p></div><img src="assets/childhood-formal.jpeg" alt="Two brothers standing together as children"></article>
+          <article class="timeline-item reverse reveal"><div class="timeline-dot"></div><div class="timeline-copy"><span>02</span><h3>Partners in crime.</h3><p>Sometimes best friends. Sometimes professional fighters. 😂</p></div><img src="assets/childhood-laugh.jpeg" alt="Two brothers smiling and laughing as children"></article>
+          <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-copy"><span>03</span><h3>But always brothers.</h3><p>The photos changed. The clothes changed. That part never did.</p></div><img src="assets/childhood-puja.jpeg" alt="Childhood photograph of the brothers during a family ceremony"></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 -->
+    <section class="letter-emotion section-cream" id="things">
+      <div class="section-inner narrow">
+        <div class="center-heading reveal">
+          <span class="chapter-no dark">04</span>
+          <p class="eyebrow dark-text">The things I keep in my heart</p>
+          <h2>Things I never say<br><em>to you...</em></h2>
+        </div>
+        <div class="type-letter" id="typeLetter">
+          <p class="reveal-line">I don't say it enough, but I am genuinely grateful that I got an elder brother like you.</p>
+          <p class="reveal-line">You've been a part of my life for as long as I can remember.</p>
+          <p class="reveal-line">Sometimes you guided me. Sometimes you annoyed me. Sometimes you fought with me. Sometimes you simply stood beside me.</p>
+          <p class="reveal-line">But somewhere along the way, you became one of the people I can always count on.</p>
+          <p class="reveal-line">I may not say it every day, but I notice it.</p>
+          <p class="reveal-line">And I am thankful for it.</p>
+          <p class="reveal-line">Thank you for being my elder brother.</p>
+          <p class="reveal-line">And no matter how old we get, a part of me will always be that little brother standing beside you.</p>
+          <p class="signature reveal-line">Happy Birthday, Bhai. <span>♥</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 Hero -->
+    <section class="king-section" id="king">
+      <div class="king-backdrop"></div>
+      <div class="section-inner king-inner">
+        <div class="king-heading reveal">
+          <p class="eyebrow">Then & now</p>
+          <h2>From the little brother<br>I looked up to...</h2>
+          <div class="king-line"></div>
+          <h3>...to the <em>KING</em> you became.</h3>
+        </div>
+        <figure class="hero-portrait reveal delay-1">
+          <div class="portrait-glow"></div>
+          <img src="assets/hero-chair.jpeg" alt="Recent portrait of my elder brother sitting in a blue chair" />
+          <figcaption>Still my brother. Still someone I look up to.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 06 -->
+    <section class="then-now section-dark" id="then-now">
+      <div class="section-inner">
+        <div class="center-heading reveal">
+          <span class="chapter-no">06</span>
+          <p class="eyebrow">A different chapter</p>
+          <h2>Look how far<br><em>you've come.</em></h2>
+          <p>Same person. Different chapter. A whole lot of memories.</p>
+        </div>
+        <div class="comparison reveal">
+          <figure><div class="image-label">THEN</div><img src="assets/childhood-formal.jpeg" alt="Childhood photograph of the brothers"></figure>
+          <div class="comparison-mark">→</div>
+          <figure><div class="image-label">NOW</div><img src="assets/hero-chair.jpeg" alt="Recent portrait in the blue chair"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 -->
+    <section class="gallery-section section-dark" id="gallery">
+      <div class="section-inner">
+        <div class="section-intro reveal">
+          <span class="chapter-no">07</span>
+          <p class="eyebrow">Our story in photos</p>
+          <h2>A few frames<br><em>from a whole lifetime.</em></h2>
+        </div>
+        <div class="editorial-gallery">
+          <button class="photo-tile tile-a reveal" data-lightbox="assets/baby-memory.jpeg" data-caption="The very beginning."><img src="assets/baby-memory.jpeg" alt="Babyhood memory"><span>The very beginning.</span></button>
+          <button class="photo-tile tile-b reveal delay-1" data-lightbox="assets/temple-now.jpeg" data-caption="Some things never change."><img src="assets/temple-now.jpeg" alt="Recent travel memory at a temple"><span>Some things never change.</span></button>
+          <button class="photo-tile tile-c reveal delay-2" data-lightbox="assets/childhood-laugh.jpeg" data-caption="Crazy little memories."><img src="assets/childhood-laugh.jpeg" alt="Childhood laughter"><span>Crazy little memories.</span></button>
+          <button class="photo-tile tile-d reveal" data-lightbox="assets/childhood-puja.jpeg" data-caption="Those days..."><img src="assets/childhood-puja.jpeg" alt="Childhood ceremony memory"><span>Those days...</span></button>
+          <button class="photo-tile tile-e reveal delay-1" data-lightbox="assets/hero-chair.jpeg" data-caption="The man you became."><img src="assets/hero-chair.jpeg" alt="Recent portrait"><span>The man you became.</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 -->
+    <section class="letter-section section-cream" id="letter">
+      <div class="letter-paper reveal">
+        <div class="letter-top"><span>08</span><span>FROM YOUR LITTLE BROTHER</span></div>
+        <p class="eyebrow dark-text">A letter I probably wouldn't say out loud...</p>
+        <h2>Dear Bhai,</h2>
+        <div class="letter-body">
+          <p>We've grown up a lot.</p>
+          <p>Life has changed. We have changed. Our responsibilities have changed.</p>
+          <p>But one thing hasn't changed — you're still my elder brother.</p>
+          <p>Looking back at these photos, I realize how much of my childhood has you somewhere in it.</p>
+          <p>The funny moments. The stupid fights. The random laughs. The moments when we simply had each other.</p>
+          <p>I don't know what the future will look like, but I hope we keep making memories that we'll laugh about years from now.</p>
+          <p>Thank you for being you.</p>
+          <p>Happy Birthday, Bhai.</p>
+        </div>
+        <div class="letter-sign">Your little brother <span>♥</span></div>
+      </div>
+    </section>
+
+    <!-- 09 -->
+    <section class="final-section" id="final">
+      <div class="final-image"><img src="assets/temple-now.jpeg" alt="Recent memory of the brothers together"></div>
+      <div class="final-shade"></div>
+      <div class="final-content reveal">
+        <p class="eyebrow">09 / Forever</p>
+        <h2>Whatever happens,<br>wherever life takes us...</h2>
+        <h3>I'll always be<br><em>your little brother.</em></h3>
+        <div class="final-divider"></div>
+        <p class="final-birthday">Happy Birthday, Bhai <span>♥</span></p>
+        <p class="final-small">Here's to many more memories.</p>
+        <button class="primary-btn" data-scroll="#opening">Replay Our Story <span>↺</span></button>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close photo">×</button>
+    <img id="lightboxImg" src="" alt="">
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
